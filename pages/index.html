@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+    <title>Footballi</title>
+    <link rel="stylesheet" href="../css/style.css">
+    <link rel="icon" href="../assets/soccer-ball-svgrepo-com.svg">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
+        integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<body>
+    <div class="hero">
+        <nav>
+            <h2 class="logo"><img src="../assets/soccer-ball-on-fire-white-icon-free-png-11650333266vipl0ubji6-removebg-preview.png"></h2>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+
+            </ul>
+        </nav>
+        <div class="section">
+            <marquee behavior="alternative" scrollamout="40">
+                <marquee behavior="alternative" direction="down" scrollamout="40">
+                    <img src="../assets/498-4981049_soccer-or-football-vector-football-ball-png-clipart-removebg-preview.png"
+                        alt="ball" class="ball">
+                </marquee>
+            </marquee>
+        </div>
+    </div>
+
+    <div class="body-content">
+        <div class="input">
+            <div class="team1-input">
+                <h5>first team</h5>
+                <textarea name="textarea-1" id="texta-1" cols="30" rows="20" placeholder="Team Members..."></textarea><br>
+                <input type="number" class="input-1" id="first-team" placeholder="Number of goals">
+                </input><br>
+                <input type="text" id="result-1" disabled></input>
+            </div>
+            <div class="team2-input">
+                <h5>second team</h5>
+                <textarea name="textarea-2" id="texta-2" cols="30" rows="20" placeholder="Team Members..."></textarea><br>
+                <input type="number" class="input-2" id="second-team" placeholder="Number of goals">
+                </input><br>
+                <input type="text" id="result-2" disabled></input>
+            </div>
+        </div>
+        <button type="button" id="check" onclick="myFunction()">Check</button><br>
+
+        <input type="text" id="result" disabled></input>
+    </div>
+    <footer>
+        <p>Shokrullah Wali</p>
+        <p>please try links bellow to reach me:</p>
+        <div class="social">
+            <a href="#"><i class="fab fa-facebook-f"></i></a>
+            <a href="#"><i class="fab fa-whatsapp"></i></a>
+            <a href="#"><i class="fab fa-tiktok"></i></a>
+        </div>
+        <p class="end">CopyRight By Shokrullah Wali</p>
+    </footer>
+    <script src="../js/action.js"></script>
+</body>
+
+</html>
